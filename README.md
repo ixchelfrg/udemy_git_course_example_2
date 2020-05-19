@@ -55,9 +55,14 @@ Do not have to do each time "git push origin master" can just do "git push".
 <b> (origin/master) : </b> where github is currently at <br>
 <b> (HEAD -> master) : </b> where we currently are at
 
+## notes
+
+Did <b> git checkout #ID </b> and went back to 6th commit. It did not change anything in github repo on github.com. Won't until I push again. <br>
+Cannot go back to master until commit changes again & push. Requests to do git push origin master or whatever branch want to push to. <br> 
+This does not change README in master branch. <br>
+Then can do <b> git checkout master </b> to go back to master branch. <br>
+
 ## to recover previos commited file
 
 <b> git checkout #ID : </b> copy ID # from commit that you want, when you do this it will then say <b> HEAD is now at "commit" </b><br>
 <b> git checkout master: </b> will take you back to branch master.
-
-
