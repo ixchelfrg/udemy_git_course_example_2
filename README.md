@@ -40,8 +40,9 @@ git --version
 
 ## more git commands
 
-<b> git diff README.md  : </b> tells you the differences made to file, what was added or removed. <br>
-<b> git log : </b> lists commits w/ID, time stamp & email
+<b> git diff README.md  : </b> tells you the differences made to file, what was added or removed <br>
+<b> git log : </b> lists commits w/ID, time stamp & email <br>
+<b> git checkout file name : </b> after make changes to file & save, this command will allow you to checkout or see file before the change was made
 
 
 
@@ -51,7 +52,7 @@ Do not have to do each time "git push origin master" can just do "git push".
 
 ## more terminology
 
-<b> (origin/master) : </b> where github is currently at
+<b> (origin/master) : </b> where github is currently at <br>
 <b> (HEAD -> master) : </b> where we currently are at
 
 
