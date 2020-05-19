@@ -55,4 +55,9 @@ Do not have to do each time "git push origin master" can just do "git push".
 <b> (origin/master) : </b> where github is currently at <br>
 <b> (HEAD -> master) : </b> where we currently are at
 
+## to recover previos commited file
+
+<b> git checkout #ID : </b> copy ID # from commit that you want, when you do this it will then say <b> HEAD is now at "commit" </b><br>
+<b> git checkout master: </b> will take you back to branch master.
+
 
