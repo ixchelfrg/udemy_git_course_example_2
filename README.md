@@ -9,6 +9,11 @@ git commit -m "first commit" <br>
 git remote add origin url <br>
 git push -u origin master <br><br>
 
+## push an existing repository from the command line
+
+git remote add origin url <br>
+git push -u origin master <br>
+
 ## video steps
 
 git clone url optional argument (directory name) <br>
@@ -33,4 +38,8 @@ git --version
 <b> ls -la: </b> to see what is in the folder
 <b> ctrl + l: </b> to clean output in terminal window
 
+## more git commands
+
+git diff README.md <br>
+Tells you the differences made to file, what was added or removed.
 
